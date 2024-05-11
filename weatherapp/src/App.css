@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/macbookpro/Downloads/BROADjEqdLS.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  display: flex;
+  justify-content: flex-start; /* Aligner à gauche */
+  align-items: center;
+  height: 100vh;
+  padding-left: 20px; /* Ajouter un peu de marge à gauche */
+}
+
+.weather-container {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left; /* Aligner le texte à gauche */
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.weather-info img {
+  margin-top: 10px;
+}
+
+.loading {
+  font-style: italic;
+  color: #888;
+}
+
+.cold .weather-container {
+  background-color: #0033cc; /* Bleu foncé */
+}
+
+.hot .weather-container {
+  background-color: #cc0000; /* Rouge foncé */
+}
+
+.normal .weather-container {
+  background-color: #666666; /* Gris moyen */
+}
+
+
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.weather-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  text-align: right;
+}
+
+table td {
+  padding: 8px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table td {
+  background-color: #fff;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.coordinates-container {
+  margin-right: 50px; /* Réduire la marge droite */
+  margin-left: auto; /* Mettre à droite le plus possible */
+}
+
+.coordinates-container table {
+  font-size: 13px; /* Augmenter la taille de la police */
+  border-collapse: separate;
+  border-spacing: 1px; /* Espacement entre les cellules */
+}
+
+.coordinates-container th,
+.coordinates-container td {
+  padding: 5px; /* Ajuster le rembourrage */
+  border: 0.1px solid #ccc; /* Ajouter des bordures */
+}
+
+
+
